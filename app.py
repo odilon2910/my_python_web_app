@@ -3,7 +3,7 @@ import os
 
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY', 'clé_secrète_par_défaut_pour_la_démo')
+app.secret_key = os.environ.get('SECRET_KEY', '1234567890')
 
 
 # Utilisateur de démonstration (en production, utiliser une base de données)
